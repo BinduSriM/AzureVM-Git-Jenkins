@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "First Deployment by Jenkins, Tomcat and Ubuntu VM(Azure) is Successful :)";
+        return "First Deployment by Jenkins, Tomcat and Ubuntu VM (Azure) is Successful :)";
     }
 
 }
